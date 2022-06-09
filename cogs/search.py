@@ -1,10 +1,9 @@
-import asyncio
-import json
+from urllib.parse import quote
+
 import aiohttp
 import discord
 from discord.ext import commands
-from discord.ext.commands import hybrid_command, Context
-from urllib.parse import quote
+from discord.ext.commands import Context, hybrid_command
 
 from bot import MyClient
 from views.pages import Pages

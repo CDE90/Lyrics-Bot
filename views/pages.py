@@ -1,5 +1,5 @@
-from typing import Optional
 import io
+from typing import Optional
 
 import discord
 

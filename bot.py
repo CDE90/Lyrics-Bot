@@ -1,9 +1,10 @@
 import asyncio
-import discord
-from discord.ext import commands
-import lyricsgenius
 import os
 import re
+
+import discord
+import lyricsgenius
+from discord.ext import commands
 
 import config
 
